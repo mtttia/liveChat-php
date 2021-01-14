@@ -1,0 +1,23 @@
+.chat
+{
+    overflow: auto;
+
+}
+
+.packet
+{
+    border: 1px solid black;
+    width: auto;
+    margin: 30px;
+    padding: 10px;
+}
+
+.m.sender
+{
+    font-size: 25px;
+}
+
+.m.message
+{
+    font-size: 22px;
+}
