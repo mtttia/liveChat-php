@@ -1,7 +1,7 @@
 <?php
+    include ('databaseData.php');
 
-
-    $db = new mysqli('127.0.0.1', 'root', '', 'chatnode');
+    $db = new mysqli($data['host'], $data['user'], $data['password'], $data['database']);
 
     
     if($db->connect_error)
